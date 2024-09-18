@@ -2,7 +2,7 @@
 .component-background {
   width: 100%;
   height: auto;
-  background-image: url('BG.png');
+  background-image: url('/assets/BG.png');
   background-size: cover;
 }
 .let-shift-business {
@@ -72,24 +72,24 @@ top:80px;
 }
 .custom-first-overlay{
   position: absolute;
-  width: 117px; /* Adjust size as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 117px; 
+  height: auto; 
 }
 
 .custom-second-overlay{
   position: absolute;
-  width: auto; /* Adjust size as needed */
-  height: 20%; /* Maintain aspect ratio */
+  width: auto; 
+  height: 20%; 
 }
 
 .custom-first-overlay {
-  bottom: 76px; /* Adjust as needed */
-  left: 32px;/* Adjust as needed */
+  bottom: 76px; 
+  left: 32px;
 }
 
 .custom-second-overlay {
-  bottom: 76px; /* Adjust as needed */
-  right: 62px;/* Adjust as needed */
+  bottom: 76px;
+  right: 62px;
 }
 
 
