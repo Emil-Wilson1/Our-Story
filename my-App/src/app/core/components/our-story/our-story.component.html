@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="heading">
+    <h5>OUR STORY</h5>
+    <h1>We know how everything works and why your business is failing over and over again.</h1>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="image-container">
+      <div *ngFor="let image of images; let i = index" 
+           class="image-wrapper"
+           [ngClass]="{'active': i === currentImageIndex}">
+        <img [src]="image" class="image" alt="Image">
+      </div>
+    </div>
+
+    <div class="text-wrapper">
+      <div class="top-images-container">
+      
+        <div class="top-image-container">
+          <div class="overlay-image-container">
+            <img src="/assets/Fill2.png" class="overlay-image" alt="Overlay Image">
+          </div>
+          <img src="/assets/OurStory2.png" class="top-image" alt="Top Image">
+         
+        </div>
+        <div class="additional-image-container">
+          <img src="/assets/OurStory3.png" class="additional-image" alt="Additional Image">
+        </div>
+      </div>
+      <div class="text-container">
+        <p>We share common trends and strategies for improving your rental income and making sure you stay in high demand. With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stats-section">
+    <div class="stats-content">
+      <div class="stat">
+        <h3>1M+</h3>
+        <p>Customers visit Omega every month to get their service done.</p>
+      </div>
+      <div class="stat">
+        <h3>92%</h3>
+        <p>Satisfaction rate comes from our awesome customers.</p>
+      </div>
+      <div class="stat">
+        <h3>4.9/5.0</h3>
+        <p>Average customer ratings we have got all over internet.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
