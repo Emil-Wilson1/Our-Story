@@ -21,7 +21,7 @@
 
 .custom-heading {
   margin-left: 80px;
-  font-family: 'Gilroy';
+  font-family: 'Gilroy-bold';
   font-style: normal;
   font-weight: 700;
   font-size: 40px; 
@@ -32,7 +32,7 @@
 
 .custom-lead {
   margin-left: 80px;
-  font-family: 'Gilroy';
+  font-family: 'Gilroy-light';
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
